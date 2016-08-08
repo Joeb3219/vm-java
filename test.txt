@@ -1,0 +1,17 @@
+0x00 0x00 // Literal 0
+0x00 0x05 // Literal 5
+0x00 0x06 // Literal 6
+0x01 // Add 5 and 6
+0x0a // Store result in register 0
+0x00 0x00 // Literal 0
+0x09 // Get value at register 0
+0x07 // Print value of register 0
+0x00 0x01 // Literal 1
+0x00 0x00 // Literal 0
+0x09 // Get value of register 0
+0x00 0x02 // Literal 2
+0x03 // Multiply 2 and value of register 0
+0x0a // Store value into register 1
+0x00 0x01 // Literal 1
+0x09 // Get value at register 1
+0x07 // Print value
